@@ -1,13 +1,10 @@
 import re
 import os
-import requests
 import threading
 import socket
 import ssl
 
 # semaph = threading.Semaphore(4)
-
-
 
 def get_url_images_in_text(text):
     urls = []
@@ -33,7 +30,6 @@ def get_images_from_url(url):
       content_response += data.decode("utf-8")
 
     return get_url_images_in_text(content_response)
-
 
 def dowload_img(path):
   with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
