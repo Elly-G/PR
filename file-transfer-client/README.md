@@ -97,4 +97,5 @@ Fiindca UDP nu tine cont de packetele expediate in retea pe cand TCP conexiunea 
 8 octeți
 Antetul UDP este un antet fix cu 8 biți și simplu, în timp ce pentru TCP poate varia de la 20 de octeți la 60 de octeți.
 
+![ld0br](https://user-images.githubusercontent.com/48655276/83340253-7eae1a00-a2de-11ea-94e8-5514a8b928f4.png)
 
